@@ -14,7 +14,7 @@ import { GrReactjs, GrNode } from "react-icons/gr";
 export function Skills() {
   return (
     <div id={styles.skill}>
-      <h1>Technical Skills</h1>
+      <h1>Tech Stack</h1>
       <div id={styles.skillgrid}>
         <div>
           <SiHtml5 size={50} color="red" />
