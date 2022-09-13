@@ -1,4 +1,4 @@
-import styles from "./Skills.module.css";
+import styles from "./TechStack.module.css";
 import { IoLogoCss3 } from "react-icons/io";
 import {
   SiJavascript,

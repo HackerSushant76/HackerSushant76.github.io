@@ -3,7 +3,7 @@ import { Navbar } from './Components/Navbar';
 import { About } from './Sections/About';
 import { Education } from './Sections/Education';
 import { Introduction } from './Sections/Introduction';
-import { Skills } from './Sections/Skills';
+import { Skills } from './Sections/TechStack';
 
 
 function App() {
