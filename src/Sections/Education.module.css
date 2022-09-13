@@ -37,7 +37,8 @@
 @media (min-width: 480px) and (max-width:1000px) {
     #edu{
         /* border: 1px solid red; */
-        width: 80%;
+        width: 85%;
+        margin-left: 20px;
         margin-top: 100px;
     }
     #edu>div{
@@ -46,9 +47,9 @@
 }
 @media (max-width: 480px) {
     #edu{
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 80%;
-        margin-top: 50px;
+        margin-top: 5rem;
         margin-left: 20px;
     }
     #edu>div{
