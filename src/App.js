@@ -1,9 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import { Navbar } from './Components/Navbar';
-import { Introduction } from './Components/Introduction';
-import { About } from './Components/About';
-import { Education } from './Components/Education';
+import { About } from './Sections/About';
+import { Education } from './Sections/Education';
+import { Introduction } from './Sections/Introduction';
+
 
 function App() {
   return (

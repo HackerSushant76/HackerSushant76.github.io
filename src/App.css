@@ -16,10 +16,10 @@ body {
 .intro {
   /* border: 1px solid red; */
   /* color: #e6f1ff; */
-  width: max-content;
+  width: fit-content;
   margin-left: 100px;
   margin-top: 5rem;
-
+  padding: 30px;
 }
 
 .bright-text {
@@ -49,12 +49,14 @@ body {
   /* border: 1px solid red; */
   width: 70%;
   margin: auto;
-  padding: 20px;
+  /* padding: 20px; */
   margin-top: 200px;
-  text-align: justify;
+  /* text-align: justify; */
   line-height: 30px;
 }
-
+.about>h1{
+  margin-bottom: 30px;
+}
 .about>div {
   /* border: 1px solid green; */
   display: flex;
@@ -67,6 +69,7 @@ body {
 .about>div>div:nth-child(1) {
   /* border: 1px solid yellow; */
   width: 70%;
+  margin-right: 20px;
 }
 
 .about>div>div:nth-child(2) {
@@ -76,15 +79,19 @@ body {
   justify-content: center;
   align-items: center;
   border: 1px solid #64ffda;
-  box-shadow: #64ffda 0px 30px 90px;
+  /* box-shadow: #64ffda 0px 30px 90px; */
+  box-shadow: #64ffda 0px 3px 8px;
 }
 
 
-@media (max-width: 450px) {
+@media (max-width: 480px) {
   .intro {
-    width: 90%;
+    /* border: 1px solid yellow; */
+    width: fit-content;
     margin: auto;
     margin-top: 2rem;
+    margin-left: 20px;
+    padding: 0px;
   }
 
   .intro>h1 {
@@ -97,26 +104,29 @@ body {
   }
 
   .about {
+    /* border: 1px solid yellow; */
     width: 90%;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 50px;
     /* text-align:justify; */
     line-height: 20px;
+    /* margin-left: 20px; */
+    /* padding-left: 0px; */
   }
 
   .about>div {
     display: flex;
     flex-direction: column-reverse;
-    gap: 20px;
+    gap: 30px;
   }
 
   .about>div>div:nth-child(1) {
-    width: 100%;
+    width: 90%;
   }
 
 }
 
-@media (min-width: 451px) and (max-width:850px) {
+@media (min-width: 480px) and (max-width:1000px) {
   .intro {
     width: 95%;
     margin: auto;
@@ -135,7 +145,7 @@ body {
   .about {
     width: 90%;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 10px;
     line-height: 20px;
   }
 
@@ -147,7 +157,7 @@ body {
 
   .about>div>div:nth-child(1) {
     /* border: 1px solid yellow; */
-    width: 90%;
+    width: 500px;
   }
 }
 
