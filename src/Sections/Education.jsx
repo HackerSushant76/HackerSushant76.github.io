@@ -3,7 +3,7 @@ import styles from "./Education.module.css";
 export function Education() {
   const [show, setShow] = useState(true);
   return (
-    <div id={styles.edu}>
+    <div className={styles.edu} id="experience">
       <h1 className="bright-white">Experience & Education</h1>
       <div>
         <div>

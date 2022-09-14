@@ -5,31 +5,70 @@
 }
 
 body {
-  background-color: rgb(6, 24, 48);
+  /* background-color: rgb(6, 24, 48); */
+  background-color: black;
+  
+/* background: linear-gradient(rgb(6, 24, 48),#030806 ); */
 }
-
+.App{
+  border: 1px solid white;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 #navbar {
-  height: 100px;
+  width: 100%;
   border: 1px solid #58f7f7ea;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  color: white;
+  padding: 30px 60px 30px 60px ;
+  box-sizing: border-box;
+  position: sticky;
+  top: 1px;
+  background-color: black;
+}
+#navbar>div{
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  
+  /* border: 1px solid red; */
+}
+#navbar>div>div{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.bright-butt{
+  padding: 10px 20px 10px 20px ;
+  background-color: black;
+  color: #64ffda;
+  border:1px solid #64ffda;
 }
 
 .intro {
   /* border: 1px solid red; */
   /* color: #e6f1ff; */
   width: fit-content;
-  margin-left: 100px;
+  /* margin-left: 100px; */
   margin-top: 5rem;
-  padding: 30px;
+  /* padding: 30px; */
 }
 
 .bright-text {
   color: #64ffda;
 }
-
+.cursive{
+  font-family: cursive;
+}
 .intro>h1 {
   font-size: 60px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  /* margin-top: 5px; */
+  margin-bottom: 2px;
 }
 
 .intro>div {
@@ -87,10 +126,10 @@ body {
 @media (max-width: 480px) {
   .intro {
     /* border: 1px solid yellow; */
-    width: fit-content;
+    width: 90%;
     margin: auto;
     margin-top: 2rem;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     padding: 0px;
   }
 
@@ -118,14 +157,14 @@ body {
   }
 
   .about>div>div:nth-child(1) {
-    width: 90%;
+    width: 100%;
   }
 
 }
 
 @media (min-width: 480px) and (max-width:1000px) {
   .intro {
-    width: 95%;
+    width: 80%;
     margin: auto;
     margin-top: 2rem;
   }
@@ -140,21 +179,21 @@ body {
   }
 
   .about {
-    width: 90%;
+    width: 80%;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 120px;
     line-height: 20px;
   }
 
   .about>div {
     display: flex;
     flex-direction: column-reverse;
-    gap: 20px;
+    gap: 30px;
   }
 
   .about>div>div:nth-child(1) {
     /* border: 1px solid yellow; */
-    width: 500px;
+    width: 700px;
   }
 }
 

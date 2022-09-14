@@ -9,7 +9,7 @@ import { Skills } from './Sections/TechStack';
 function App() {
   return (
     <div className="App">
-      {/* <Navbar/> */}
+      <Navbar/>
       <Introduction/>
       <About />
       <Education/>

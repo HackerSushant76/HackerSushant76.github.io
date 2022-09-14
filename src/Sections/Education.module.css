@@ -1,4 +1,4 @@
-#edu{
+.edu{
     /* border: 1px solid red; */
     width: 50%;
     margin: auto;
@@ -7,7 +7,7 @@
     color: #e6f1ff;
     /* padding: 1rem; */
 }
-#edu>h1{
+.edu>h1{
     margin-bottom: 25px;
 }
 .head{
@@ -19,7 +19,7 @@
     margin-bottom: 10px;
     margin-top: 1rem;
 }
-#edu>div{
+.edu>div{
     /* border: 1px solid green; */
     display: flex;
     justify-content: left;
@@ -35,29 +35,29 @@
     margin-top: 10px;
 } 
 @media (min-width: 480px) and (max-width:1000px) {
-    #edu{
+    .edu{
         /* border: 1px solid red; */
-        width: 85%;
-        margin-left: 20px;
-        margin-top: 100px;
+        width: 80%;
+        /* margin-left: 20px; */
+        margin-top: 120px;
     }
-    #edu>div{
+    .edu>div{
         gap:50px;
     }
 }
 @media (max-width: 480px) {
-    #edu{
+    .edu{
         /* border: 1px solid red; */
-        width: 80%;
+        width: 90%;
         margin-top: 5rem;
-        margin-left: 20px;
+        /* margin-left: 20px; */
     }
-    #edu>div{
+    .edu>div{
         /* border: 1px solid green; */
         flex-direction: column;
         gap:10px;
     }
-    #edu>div>div:nth-child(1){
+    .edu>div>div:nth-child(1){
         display: flex;
         gap: 30px;
     }
