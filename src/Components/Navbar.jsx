@@ -36,9 +36,8 @@ export function Navbar() {
             to="introduc"
             spy={true}
             smooth={true}
-            offset={50}
+            offset={-100}
             duration={800}
-            // onSetActive={this.handleSetActive}
           >
             Intro
           </Link></div>
@@ -51,9 +50,8 @@ export function Navbar() {
             to={elem.path}
             spy={true}
             smooth={true}
-            offset={50}
+            offset={-100}
             duration={800}
-            // onSetActive={this.handleSetActive}
           >
             {elem.title}
           </Link>

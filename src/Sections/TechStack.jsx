@@ -11,11 +11,11 @@ import {
 } from "react-icons/si";
 import { GrReactjs, GrNode } from "react-icons/gr";
 
-export function Skills() {
+export function TechStack() {
   return (
-    <div className={styles.skill} id="tech-skills">
+    <div className={styles.techStack} id="tech-skills">
       <h1>Tech Stack</h1>
-      <div className={styles.skillgrid}>
+      <div className={styles.techStackgrid}>
         <div>
           <SiHtml5 size={50} color="red" />
           HTML

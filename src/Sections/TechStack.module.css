@@ -1,4 +1,4 @@
-.skill{
+.techStack{
     /* border: 1px solid red; */
     color: white;
     width: 70%;
@@ -6,7 +6,7 @@
     margin-top: 120px;
     margin-bottom: 100px;
 }
-.skillgrid{
+.techStackgrid{
     /* border: 1px solid purple; */
     margin-top: 3rem;
     display: grid;
@@ -15,7 +15,7 @@
     grid-gap: 60px;
     /* margin-left: 50px; */
 }
-.skillgrid>div{
+.techStackgrid>div{
     border: 1px solid #64ffda;
     background-color: #d3f7ed;
     width: 110px;
@@ -34,20 +34,20 @@
     box-shadow: #64ffda 0px 1px 4px;
     transition-duration: 1s;
 }
-.skillgrid>div:hover{
+.techStackgrid>div:hover{
     scale: 120%;
     background-color: white;
 }
 @media (min-width: 480px) and (max-width:1000px) {
-    .skill{
+    .techStack{
         width: 80%;
         /* margin-left: 20px; */
     }
-    .skillgrid{
+    .techStackgrid{
         grid-template-columns: repeat(3,auto);
         grid-gap: 40px;
     }
-    .skillgrid>div{
+    .techStackgrid>div{
         width: 95px;
         height: 90px;
         font-size: 18px;
@@ -55,16 +55,16 @@
 }
 
 @media (max-width: 480px) {
-    .skill{
+    .techStack{
         width: 90%;
         /* margin-left: 20px; */
         margin-top: 2rem;
     }
-    .skillgrid{
+    .techStackgrid{
         grid-template-columns: repeat(2,auto);
         grid-gap: 40px;
     }
-    .skillgrid>div{
+    .techStackgrid>div{
         width: 95px;
         height: 90px;
     }

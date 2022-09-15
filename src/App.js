@@ -1,19 +1,23 @@
-import './App.css';
-import { Navbar } from './Components/Navbar';
-import { About } from './Sections/About';
-import { Education } from './Sections/Education';
-import { Introduction } from './Sections/Introduction';
-import { Skills } from './Sections/TechStack';
-
+import { SiChakraui } from "react-icons/si";
+import "./App.css";
+import { Navbar } from "./Components/Navbar";
+import { About } from "./Sections/About";
+import { Education } from "./Sections/Education";
+import { Introduction } from "./Sections/Introduction";
+import { TechStack } from "./Sections/TechStack";
+import { Skills } from "./Sections/Skills";
+import { Projects } from "./Sections/Projects";
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Introduction/>
+      <Introduction />
       <About />
-      <Education/>
+      <Education />
+      <TechStack />
       <Skills/>
+      <Projects/>
     </div>
   );
 }

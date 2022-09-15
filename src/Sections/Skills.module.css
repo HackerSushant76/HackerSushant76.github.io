@@ -1,0 +1,26 @@
+.skills{
+    /* border: 1px solid red; */
+    color: white;
+    width: 50%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.skills>h1{
+    margin-bottom: 40px;
+}
+.skills>div{
+    display: flex;
+    gap: 50px;
+}
+.skills>div>div{
+    border: 1px solid #64ffda;
+    width: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.skills>div>div:hover{
+    background-color:#308d77;
+    transition: all 0.5s;
+}
