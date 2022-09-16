@@ -7,12 +7,13 @@ import {
   scrollSpy,
   scroller,
 } from "react-scroll";
-import {AiOutlineDownload} from "react-icons/ai"
+import { AiOutlineDownload } from "react-icons/ai";
+import { LogoAni } from "./LogoAni";
 
 const links = [
   {
     path: "about",
-    title: "About me",
+    title: "About",
   },
   {
     path: "experience",
@@ -20,7 +21,7 @@ const links = [
   },
   {
     path: "tech-skills",
-    title: "Tech Stack",
+    title: "Tech",
   },
   {
     path: "project",
@@ -30,21 +31,22 @@ const links = [
 export function Navbar() {
   return (
     <div id="navbar">
-        <div><Link
-            className="bright-white"
-            activeClass="active"
-            to="introduc"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={800}
-          >
-            Intro
-          </Link></div>
       <div>
+        <Link
+          activeClass="active"
+          to="introduc"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={800}
+        >
+          <LogoAni />
+        </Link>
+      </div>
+      <div className="opacity">
         {links.map((elem) => (
-          <Link 
-          key={elem.title}
+          <Link
+            key={elem.title}
             className="bright-white"
             activeClass="active"
             to={elem.path}
@@ -55,10 +57,11 @@ export function Navbar() {
           >
             {elem.title}
           </Link>
-        ))} 
-        <div className="bright-butt">Resume <AiOutlineDownload size={20}/></div>
+        ))}
+        <div className="bright-butt">
+          Resume <AiOutlineDownload size={20} />
+        </div>
       </div>
-     
     </div>
   );
 }

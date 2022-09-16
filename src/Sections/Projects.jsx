@@ -5,7 +5,8 @@ const data = [
   {
     img_url: "everhour.png",
     name: "Everhour Clone",
-    desc: ` Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+    desc: "eautybebo Clone",
+    desc: `Lorem ipsum dolor, sit amet consectetur adipisicing elit.
         Repellendus rerum, quam debitis error non, ex ipsa labore quia sed
         eveniet beatae, quasi dolore! Eaque, a cum voluptate libero dolores
         ex.`,

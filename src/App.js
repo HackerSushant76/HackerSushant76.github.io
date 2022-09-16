@@ -7,6 +7,7 @@ import { Introduction } from "./Sections/Introduction";
 import { TechStack } from "./Sections/TechStack";
 import { Skills } from "./Sections/Skills";
 import { Projects } from "./Sections/Projects";
+import { LogoAni } from "./Components/LogoAni";
 
 function App() {
   return (

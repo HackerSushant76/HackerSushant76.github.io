@@ -24,3 +24,25 @@
     background-color:#308d77;
     transition: all 0.5s;
 }
+@media (min-width: 480px) and (max-width:1000px) {
+    .skills{
+        width: 80%;
+    }
+}
+@media (max-width: 480px) {
+    .skills{
+        width: 90%;
+    }
+    .skills>h1{
+        margin-bottom: 40px;
+    }
+    .skills>div{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .skills>div>div{
+        margin-bottom: 0px;
+    }
+}
