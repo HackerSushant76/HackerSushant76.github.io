@@ -7,7 +7,9 @@
 }
 
 body {
-  background-color: black;
+  background-color: #000;
+  /* background-color: linear-gradient(black,grey,black); */
+  /* background: linear-gradient(black, rgb(37, 37, 37),black,rgb(37, 37, 37)); */
 }
 
 .App {
@@ -390,9 +392,14 @@ body {
     cursor: pointer;
     color: #64ffda;
 }
+
 .resume>a{
   text-decoration: none;
   color: #64ffda;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
 }
 .font{
   font-family:monospace;

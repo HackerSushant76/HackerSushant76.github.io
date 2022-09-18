@@ -47,7 +47,7 @@ export function Projects() {
               <p className="bright-text">Featured Project</p>
               <h2>{elem.name}</h2>
             </div>
-            <div className={styles.descbox}>{elem.desc}</div>
+            <div className={styles.descbox}><span className="s-dark-text">{elem.desc}</span></div>
             <div className={styles.tech}>
               {elem.tech.map((item) => (
                 <div>{item}</div>
