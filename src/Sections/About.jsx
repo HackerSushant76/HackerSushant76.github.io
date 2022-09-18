@@ -5,12 +5,12 @@ export function About() {
       <div>
         <div className="s-dark-text">
           <p>
-            Hello my name is Sushant, I am MERN stack developer . I was very much
-            interested about coding during my graduation but my main coding journey started with Web
-            Development bootcamp where I did coding for 1000+ hours. Solved 250+
+            Hello my name is Sushant, I am a MERN stack developer. I was very much
+            interested about coding during my graduation but my actual coding journey started with Web
+            Development bootcamp where I did coding for 1000+ hours, solved 250+
             DSA problems which improved my problem solving ability and helped me
-            to build the concept and my coding skills reached to the next level.
-            Then after working on some collaborative projects I aquired some interpersonal skills.
+            to build the concept and coding skills.
+            Then, after working on some collaborative projects I aquired some interpersonal skills.
             <br />
            I always try to learn something new and get updated with latest technologies in the market.
             <br />
