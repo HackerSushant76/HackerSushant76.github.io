@@ -15,6 +15,7 @@ export function About() {
             I am still learning and always try to get updated with latest technologies in the market.
             <br />
             Here are a few technologies I’ve been working with recently:
+            </p>
             <div style={{display:"flex" , marginLeft:"30px" ,gap: "100px"}} className="bright-text">
             <ul>
               <li>JavaScript (ES6+)</li>
@@ -27,7 +28,7 @@ export function About() {
                 <li>MongoDB</li>
             </ul>
             </div>
-          </p>
+          
         </div>
 
         <div>
