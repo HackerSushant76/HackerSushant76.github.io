@@ -12,11 +12,12 @@ export function About() {
             to build the concept and my coding skills reached to the next level.
             Then after working on some collaborative projects I aquired some interpersonal skills.
             <br />
-            I am still learning and always try to get updated with latest technologies in the market.
+           I always try to learn something new and get updated with latest technologies in the market.
             <br />
             Here are a few technologies I’ve been working with recently:
             </p>
-            <div style={{display:"flex" , marginLeft:"30px" ,gap: "100px"}} className="bright-text">
+            <br />
+            <div style={{display:"flex" , marginLeft:"30px" ,gap: "70px"}} className="bright-text">
             <ul>
               <li>JavaScript (ES6+)</li>
               <li>React</li>
