@@ -1,5 +1,5 @@
 export function LogoAni(){
     return <div id="logo-base">
-        <div id="logo">S</div>
+        <div id="logo" className="font">S</div>
     </div>
 }

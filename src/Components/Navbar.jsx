@@ -47,7 +47,7 @@ export function Navbar() {
         {links.map((elem) => (
           <Link
             key={elem.title}
-            className="bright-white"
+            className="bright-white hover"
             activeClass="active"
             to={elem.path}
             spy={true}
@@ -58,8 +58,8 @@ export function Navbar() {
             {elem.title}
           </Link>
         ))}
-        <div className="bright-butt">
-          Resume <AiOutlineDownload size={20} />
+        <div className="bright-butt resume">
+          <a href="https://drive.google.com/file/d/15xOAIZrGRwp0L9ueEs_8EbfXA_JlC16H/view?usp=sharing" target="_blank">Resume <AiOutlineDownload size={20} /></a>
         </div>
       </div>
     </div>

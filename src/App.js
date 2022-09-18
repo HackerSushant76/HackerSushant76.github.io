@@ -8,6 +8,9 @@ import { TechStack } from "./Sections/TechStack";
 import { Skills } from "./Sections/Skills";
 import { Projects } from "./Sections/Projects";
 import { LogoAni } from "./Components/LogoAni";
+import { Stats } from "./Sections/Stats";
+import { GetInTouch } from "./Sections/GetInTouch";
+import { useEffect, useRef } from "react";
 
 function App() {
   return (
@@ -19,6 +22,8 @@ function App() {
       <TechStack />
       <Skills/>
       <Projects/>
+      <Stats/>
+      <GetInTouch/>
     </div>
   );
 }

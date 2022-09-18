@@ -40,12 +40,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    box-shadow:  rgb(148, 148, 148) 0px 1px 0px,  rgb(148, 148, 148) 0px 0px 8px;
-    
+    box-shadow:  rgb(148, 148, 148) 0px 1px 0px,  rgb(148, 148, 148) 0px 0px 8px;   
 }
 .descbox{
     position: absolute;
-    width: 450px;
+    width: 480px;
     background-color: rgb(20, 20, 20);
     right: 10px;
     box-sizing: border-box;
@@ -55,7 +54,7 @@
 .tech{
     color:#64ffda;
     /* border: 1px solid rgb(18, 182, 18); */
-    margin-top: 180px;
+    margin-top: 190px;
     display: flex;
     justify-content: end;
     gap: 20px;
@@ -68,8 +67,7 @@
     display: flex;
     justify-content: end;
     gap: 20px;
-    margin-top: 30px;
-    
+    margin-top: 30px;   
     /* border: 1px solid green; */
 }
 .linkbox>a{

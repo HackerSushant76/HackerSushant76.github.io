@@ -8,7 +8,7 @@ export function Education() {
       <div>
         <div>
           <div className={styles.head} style={show? {backgroundColor: "#308d77"}: null} onClick={() => setShow(true)}>
-            Masai School
+            Course
           </div>
           <div className={styles.head} style={!show? {backgroundColor: "#308d77"}: null} onClick={() => setShow(false)}>
             B.tech
@@ -19,6 +19,7 @@ export function Education() {
             <h3>Full Stack Web Development Course</h3>
             <p className="bright-text">March, 2022 - present</p>
             <ul className="s-dark-text">
+              <li>Masai School, Banglore</li>
               <li>1000+ hours of coding</li>
               <li>Data structure and algorithms</li>
               <li>100+ hours of soft skill sessions</li>
