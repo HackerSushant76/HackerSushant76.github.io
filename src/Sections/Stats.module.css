@@ -2,14 +2,34 @@
     color: white;
     width: 70%;
     box-shadow: white 0px 1px 4px;
-    padding: 30px;
+    padding: 50px;
     box-sizing: border-box;
     margin-bottom: 100px;
 }
+
 .stats>div{
     /* border: 1px solid red; */
-    width: 90%;
+    /* width: 100%; */
     margin: auto;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    /* flex-wrap: wrap; */
+}
+.stats>div>div{
+    width: 50%;
+    /* border: 1px solid greenyellow; */
+    /* height: 100% */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stats>div>div>img{
+    width: 98%;
+    /* align-self: center; */
 }
 .stats>div>img{
     width: 100%;
@@ -52,6 +72,9 @@
         /* border: 1px solid red; */
         width: 100%;
         margin: auto;
+    }
+    .stats>div>div{
+        width: 90%;
     }
     .stats>div>img{
         width: 100%;
