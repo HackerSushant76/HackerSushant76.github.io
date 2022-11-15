@@ -59,7 +59,7 @@ export function Navbar() {
           </Link>
         ))}
         <div className="bright-butt resume">
-          <a href="/Sushant_Yadav_Resume.pdf" download="Sushant_Yadav_Resume.pdf">Resume <AiOutlineDownload size={20} /></a>
+          <a href="Sushant_Yadav_Resume.pdf" download="Sushant_Yadav_Resume.pdf">Resume <AiOutlineDownload size={20} /></a>
         </div>
       </div>
     </div>
