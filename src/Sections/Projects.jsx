@@ -3,9 +3,18 @@ import { BsGithub } from "react-icons/bs";
 import { FiGithub, FiExternalLink } from "react-icons/fi";
 const data = [
   {
+    img_url: "tripoto.PNG",
+    name : "Tripoto Clone",
+    desc: `This is a clone of Tripoto.com. Tripoto is a travelling website.This is a collaborative project 
+    of 5 members and we completed it in 4 days. This clone has various functionalities like 
+    carousel effects, slideshows and google authentication, etc. It is a fully responsive website.`,
+    tech: ["React" ,"Chakra UI" ,"Firebase","CSS" , "NPM" ],
+    github : "https://github.com/HackerSushant76/flowery-ear-2957",
+    deployed : "https://rct211-tripoto-clone.netlify.app/"
+  },
+  {
     img_url: "everhour.png",
     name: "Everhour Clone",
-    desc: "eautybebo Clone",
     desc: `This is a clone of Everhour.com, It is an individual project built in 4 days. 
             It is an optimised application which loads very fast on any render.
             React Routing is used for navigation which helps to navigate faster without 
