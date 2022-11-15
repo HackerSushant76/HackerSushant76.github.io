@@ -2,7 +2,7 @@ import { AiFillLinkedin } from "react-icons/ai"
 import { FiGithub } from "react-icons/fi"
 import styles from "./GetIntouch.module.css"
 export function GetInTouch(){
-    return <div className={styles.touch}>
+    return <div className={styles.touch} id="contact">
         <h1>Get In Touch</h1>
         <div className={styles.link}>
         <div className="hover"><a href="https://github.com/HackerSushant76" target="_blank" ><FiGithub size="2rem" /></a></div>

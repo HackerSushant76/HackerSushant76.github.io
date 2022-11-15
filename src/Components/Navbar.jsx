@@ -16,16 +16,16 @@ const links = [
     title: "About",
   },
   {
-    path: "experience",
-    title: "Experience",
-  },
-  {
     path: "tech-skills",
     title: "Tech",
   },
   {
     path: "project",
     title: "Projects",
+  },
+  {
+    path: "contact",
+    title: "Contact",
   },
 ];
 export function Navbar() {
