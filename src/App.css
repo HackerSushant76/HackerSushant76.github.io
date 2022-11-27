@@ -252,7 +252,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: white 0px 1px 0px, white 0px 0px 8px;
+  box-shadow: rgba(255, 255, 255, 0.781) 0px 1px 0px, rgba(255, 255, 255, 0.918) 0px 0px 8px;
 }
 
 
