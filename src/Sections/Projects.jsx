@@ -3,14 +3,23 @@ import { BsGithub } from "react-icons/bs";
 import { FiGithub, FiExternalLink } from "react-icons/fi";
 const data = [
   {
+    img_url: "care-at-home.PNG",
+    name: "Care at Home",
+    desc: `CareAtHome is an online platform helping customers to book reliable & high quality services, 
+    delivered by trained professionals conveniently at home.`,
+    tech: ["React","Node","Express","mongodb" ,"Chakra UI"],
+    github: "https://github.com/pragati-tripathi05/Care-At-Home",
+    deployed: "https://care-at-home-mauve.vercel.app/",
+  },
+  {
     img_url: "tripoto.PNG",
-    name : "Tripoto Clone",
+    name: "Tripoto Clone",
     desc: `This is a clone of Tripoto.com. Tripoto is a travelling website.This is a collaborative project 
     of 5 members and we completed it in 4 days. This clone has various functionalities like 
     carousel effects, slideshows and google authentication, etc. It is a fully responsive website.`,
-    tech: ["React" ,"Chakra UI" ,"Firebase","CSS" , "NPM" ],
-    github : "https://github.com/HackerSushant76/flowery-ear-2957",
-    deployed : "https://rct211-tripoto-clone.netlify.app/"
+    tech: ["React", "Chakra UI", "Firebase", "CSS", "NPM"],
+    github: "https://github.com/HackerSushant76/flowery-ear-2957",
+    deployed: "https://rct211-tripoto-clone.netlify.app/",
   },
   {
     img_url: "everhour.png",
@@ -51,7 +60,7 @@ export function Projects() {
     <div className={styles.project} id="project">
       <h1>Projects</h1>
       {data.map((elem) => (
-        <div >
+        <div>
           <div className={styles.imgDiv}>
             <img src={elem.img_url} alt="p1" width="100%" height="100%" />
           </div>
@@ -60,13 +69,15 @@ export function Projects() {
               <p className="bright-text">Featured Project</p>
               <h2>{elem.name}</h2>
             </div>
-            <div className={styles.descbox}><span className="s-dark-text">{elem.desc}</span></div>
+            <div className={styles.descbox}>
+              <span className="s-dark-text">{elem.desc}</span>
+            </div>
             <div className={styles.tech}>
               {elem.tech.map((item) => (
                 <div>{item}</div>
               ))}
             </div>
-            <div className={styles.linkbox} >
+            <div className={styles.linkbox}>
               <a href={elem.github} target="_blank" className="hover">
                 <FiGithub size="2rem" />
               </a>
