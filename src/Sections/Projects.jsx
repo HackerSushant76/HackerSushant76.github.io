@@ -5,8 +5,9 @@ const data = [
   {
     img_url: "care-at-home.PNG",
     name: "Care at Home",
-    desc: `CareAtHome is an online platform helping customers to book reliable & high quality services, 
-    delivered by trained professionals conveniently at home.`,
+    desc: `It is an online platform helping customers to book reliable & high quality services, 
+    delivered by trained professionals conveniently at home.In this website user's info.  is securely saved in our database. 
+    Passwords are saved after encryption, even we can't access your password.`,
     tech: ["React","Node","Express","mongodb" ,"Chakra UI"],
     github: "https://github.com/pragati-tripathi05/Care-At-Home",
     deployed: "https://care-at-home-mauve.vercel.app/",
